@@ -112,6 +112,9 @@ class AwesomeListSource:
                 repo_dict["query_matched"] = f"awesome-list:{list_repo}"
                 repo_dict["source"] = "awesome_list"
 
+                if self.config.get("must_have_readme") and repo_dict.get("readme_length", 0) == 0:
+                    continue
+
                 breakdown = compute_quality_score_detailed(repo_dict, self.scoring_config)
                 repo_dict["quality_score"] = breakdown["score"]
                 repo_dict["_score_stars"] = breakdown["stars"]
