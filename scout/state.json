@@ -1,11 +1,1510 @@
 {
-  "last_run": null,
-  "repos": {},
+  "last_run": "2026-03-25T12:31:20Z",
+  "repos": {
+    "oraios/serena": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 22055,
+      "quality_score": 93,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "BeehiveInnovations/pal-mcp-server": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 11313,
+      "quality_score": 74,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "idosal/git-mcp": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 7825,
+      "quality_score": 84,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "cyberagiinc/DevDocs": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 2043,
+      "quality_score": 77,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "timescale/pg-aiguide": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 1647,
+      "quality_score": 81,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "PleasePrompto/notebooklm-mcp": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 1588,
+      "quality_score": 76,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "yctimlin/mcp_excalidraw": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 1540,
+      "quality_score": 80,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "wesammustafa/Claude-Code-Everything-You-Need-to-Know": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 1377,
+      "quality_score": 86,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "steipete/claude-code-mcp": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 1198,
+      "quality_score": 75,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "kimsungwhee/apple-docs-mcp": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 1170,
+      "quality_score": 78,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "ccplugins/awesome-claude-code-plugins": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 646,
+      "quality_score": 66,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "SixHq/Overture": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 602,
+      "quality_score": 76,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "fcakyon/claude-codex-settings": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 533,
+      "quality_score": 76,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "Coolver/home-assistant-vibecode-agent": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 491,
+      "quality_score": 71,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "TheDecipherist/claude-code-mastery": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 471,
+      "quality_score": 70,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "samvallad33/vestige": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 445,
+      "quality_score": 76,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "e2b-dev/mcp-server": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 384,
+      "quality_score": 59,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "elusznik/mcp-server-code-execution-mode": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 319,
+      "quality_score": 60,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "milisp/mcp-linker": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 298,
+      "quality_score": 72,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "benjaminr/chrome-devtools-mcp": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 292,
+      "quality_score": 61,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "laraben/laravel-claude-code-setup": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 279,
+      "quality_score": 72,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "mathiaschu/meta-ads-analyzer": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 272,
+      "quality_score": 68,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "affaan-m/everything-claude-code": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 106530,
+      "quality_score": 100,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "hesreallyhim/awesome-claude-code": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 32262,
+      "quality_score": 94,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "sickn33/antigravity-awesome-skills": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 27260,
+      "quality_score": 98,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "OthmanAdi/planning-with-files": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 17168,
+      "quality_score": 96,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "coreyhaines31/marketingskills": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 16332,
+      "quality_score": 96,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "wasp-lang/open-saas": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 13644,
+      "quality_score": 95,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "VoltAgent/awesome-agent-skills": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 12770,
+      "quality_score": 91,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "blader/humanizer": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 11005,
+      "quality_score": 94,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "diet103/claude-code-infrastructure-showcase": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 9336,
+      "quality_score": 77,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "teng-lin/notebooklm-py": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 7475,
+      "quality_score": 89,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "Jeffallan/claude-skills": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 7285,
+      "quality_score": 93,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "refly-ai/refly": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 7069,
+      "quality_score": 93,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "alirezarezvani/claude-skills": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 6851,
+      "quality_score": 93,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "Lum1104/Understand-Anything": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 6097,
+      "quality_score": 92,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "Orchestra-Research/AI-Research-SKILLs": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 5596,
+      "quality_score": 92,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "op7418/Humanizer-zh": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 5167,
+      "quality_score": 77,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "PleasePrompto/notebooklm-skill": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 5008,
+      "quality_score": 74,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "Donchitos/Claude-Code-Game-Studios": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 4512,
+      "quality_score": 82,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "wanshuiyin/Auto-claude-code-research-in-sleep": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 3973,
+      "quality_score": 90,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "trailofbits/skills": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 3897,
+      "quality_score": 87,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "zubair-trabzada/geo-seo-claude": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 3864,
+      "quality_score": 91,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "czlonkowski/n8n-skills": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 3789,
+      "quality_score": 80,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "zebbern/claude-code-guide": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 3718,
+      "quality_score": 90,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "mukul975/Anthropic-Cybersecurity-Skills": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 3704,
+      "quality_score": 90,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "heilcheng/awesome-agent-skills": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 3385,
+      "quality_score": 84,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "AgriciDaniel/claude-seo": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 3085,
+      "quality_score": 86,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "twostraws/SwiftUI-Agent-Skill": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 3049,
+      "quality_score": 83,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "ruvnet/ruflo": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 25609,
+      "quality_score": 98,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "czlonkowski/n8n-mcp": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 16340,
+      "quality_score": 96,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "UfoMiao/zcf": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 5798,
+      "quality_score": 92,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "entireio/cli": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 3752,
+      "quality_score": 85,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "stravu/crystal": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 2991,
+      "quality_score": 79,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "gotalab/cc-sdd": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 2965,
+      "quality_score": 80,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "stellarlinkco/myclaude": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 2523,
+      "quality_score": 83,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "FlorianBruniaux/claude-code-ultimate-guide": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 2228,
+      "quality_score": 84,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "sdi2200262/agentic-project-management": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 2132,
+      "quality_score": 87,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "nyldn/claude-octopus": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 2064,
+      "quality_score": 83,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "catlog22/Claude-Code-Workflow": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 1582,
+      "quality_score": 85,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "CloudAI-X/claude-workflow-v2": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 1302,
+      "quality_score": 76,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "softaworks/agent-toolkit": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 1199,
+      "quality_score": 79,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "parcadei/Continuous-Claude-v3": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 3624,
+      "quality_score": 79,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "davepoon/buildwithclaude": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 2638,
+      "quality_score": 88,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "severity1/claude-code-prompt-improver": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 1308,
+      "quality_score": 75,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "kenryu42/claude-code-safety-net": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 1186,
+      "quality_score": 83,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "rohitg00/awesome-claude-code-toolkit": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 899,
+      "quality_score": 79,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "carlrannaberg/claudekit": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 637,
+      "quality_score": 68,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "sangrokjung/claude-forge": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 603,
+      "quality_score": 77,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "blader/taskmaster": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 488,
+      "quality_score": 70,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "SethGammon/Citadel": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 320,
+      "quality_score": 74,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "karanb192/claude-code-hooks": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 299,
+      "quality_score": 67,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "vibeeval/vibecosystem": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 294,
+      "quality_score": 73,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "xu-xiang/everything-claude-code-zh": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 222,
+      "quality_score": 72,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "zhukunpenglinyutong/ai-max": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 206,
+      "quality_score": 66,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "can1357/oh-my-pi": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 2362,
+      "quality_score": 88,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "rahulvrane/awesome-claude-agents": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 299,
+      "quality_score": 72,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "JDArmy/Evasion-SubAgents": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 172,
+      "quality_score": 76,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "cat-xierluo/SuitAgent": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 128,
+      "quality_score": 65,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "dongbeixiaohuo/writing-agent": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 128,
+      "quality_score": 75,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "shintaro-sprech/agent-orchestrator-template": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 120,
+      "quality_score": 57,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "undeadlist/claude-code-agents": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 92,
+      "quality_score": 72,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "tintinweb/pi-subagents": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 87,
+      "quality_score": 73,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "rubenzantingh/claude-code-magento-agents": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 77,
+      "quality_score": 46,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "tony/claude-code-riper-5": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 73,
+      "quality_score": 58,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "agentsea/flashbacker": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 55,
+      "quality_score": 56,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "CoderMageFox/claudecode-codex-subagents": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 41,
+      "quality_score": 51,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "roddutra/agent-mcp-gateway": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 40,
+      "quality_score": 52,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "Piebald-AI/claude-code-system-prompts": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 6622,
+      "quality_score": 89,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "centminmod/my-claude-code-setup": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 2103,
+      "quality_score": 87,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "gadievron/raptor": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 1513,
+      "quality_score": 86,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "BayramAnnakov/claude-reflect": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 843,
+      "quality_score": 78,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "alirezarezvani/ClaudeForge": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 324,
+      "quality_score": 68,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "LukeRenton/explore-claude-code": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 194,
+      "quality_score": 75,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "yegor256/prompt": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 136,
+      "quality_score": 65,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "severity1/claude-code-auto-memory": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 125,
+      "quality_score": 63,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "trevor-nichols/agentrules-architect": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 110,
+      "quality_score": 73,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "agent-sh/agnix": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 105,
+      "quality_score": 72,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "GuDaStudio/CLAUDEmd": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 74,
+      "quality_score": 53,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "aakashg/pm-claude-code-setup": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 56,
+      "quality_score": 66,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "VoidLight00/autoimprove-cc": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 50,
+      "quality_score": 63,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "egebese/skill-manager": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 34,
+      "quality_score": 61,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "solanabr/solana-claude-config": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 33,
+      "quality_score": 57,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "jrenaldi79/harness-engineering": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 31,
+      "quality_score": 67,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "u14app/deep-research": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 4545,
+      "quality_score": 77,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "zcaceres/markdownify-mcp": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 2492,
+      "quality_score": 83,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "bytebase/dbhub": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 2409,
+      "quality_score": 88,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "stickerdaniel/linkedin-mcp-server": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 1143,
+      "quality_score": 81,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "QuantGeekDev/mcp-framework": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 907,
+      "quality_score": 73,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "TensorBlock/awesome-mcp-servers": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 580,
+      "quality_score": 79,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "utensils/mcp-nixos": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 514,
+      "quality_score": 75,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "wshobson/maverick-mcp": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 444,
+      "quality_score": 76,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "bigcodegen/mcp-neovim-server": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 301,
+      "quality_score": 60,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "caiovicentino/polymarket-mcp-server": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 270,
+      "quality_score": 74,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "strands-agents/mcp-server": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 266,
+      "quality_score": 70,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "levnikolaevich/claude-code-skills": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 257,
+      "quality_score": 74,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "Mng-dev-ai/agentrove": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 248,
+      "quality_score": 77,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "Vvkmnn/claude-historian-mcp": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 217,
+      "quality_score": 76,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "affaan-m/agentshield": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 216,
+      "quality_score": 77,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "vinkius-labs/vurb.ts": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 214,
+      "quality_score": 72,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "Rudra-ravi/wikipedia-mcp": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 211,
+      "quality_score": 72,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "JSONbored/claudepro-directory": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 198,
+      "quality_score": 71,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "ilhamfp/pasal": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 196,
+      "quality_score": 72,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "poly-mcp/PolyMCP": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 162,
+      "quality_score": 66,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "modelcontextprotocol/servers": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 82032,
+      "quality_score": 96,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "modelcontextprotocol/python-sdk": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 22306,
+      "quality_score": 93,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "modelcontextprotocol/typescript-sdk": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 11956,
+      "quality_score": 91,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "hangwin/mcp-chrome": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 10908,
+      "quality_score": 84,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "modelcontextprotocol/registry": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 6590,
+      "quality_score": 89,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "executeautomation/mcp-playwright": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 5351,
+      "quality_score": 75,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "nanbingxyz/5ire": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 5131,
+      "quality_score": 92,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "getsentry/XcodeBuildMCP": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 4880,
+      "quality_score": 86,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "modelcontextprotocol/go-sdk": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 4225,
+      "quality_score": 87,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "modelcontextprotocol/csharp-sdk": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 4131,
+      "quality_score": 82,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "mobile-next/mobile-mcp": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 4131,
+      "quality_score": 91,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "Pimzino/spec-workflow-mcp": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 4061,
+      "quality_score": 82,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "wong2/awesome-mcp-servers": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 3781,
+      "quality_score": 66,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "opensumi/core": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 3619,
+      "quality_score": 90,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "haris-musa/excel-mcp-server": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 3569,
+      "quality_score": 75,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "modelcontextprotocol/java-sdk": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 3304,
+      "quality_score": 81,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "microsoft/mcp": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 2859,
+      "quality_score": 89,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "blazickjp/arxiv-mcp-server": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 2422,
+      "quality_score": 78,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "brightdata/brightdata-mcp": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 2232,
+      "quality_score": 85,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "stacklok/toolhive": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 1674,
+      "quality_score": 86,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "f/mcptools": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 1535,
+      "quality_score": 68,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "modelcontextprotocol/php-sdk": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 1425,
+      "quality_score": 82,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "benborla/mcp-server-mysql": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 1412,
+      "quality_score": 81,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "MiniMax-AI/MiniMax-MCP": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 1349,
+      "quality_score": 76,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "containers/kubernetes-mcp-server": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 1333,
+      "quality_score": 86,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "modelcontextprotocol/swift-sdk": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 1322,
+      "quality_score": 82,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "SuperClaude-Org/SuperClaude_Framework": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 21923,
+      "quality_score": 97,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "Piebald-AI/tweakcc": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 1416,
+      "quality_score": 81,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "neiii/bridle": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 403,
+      "quality_score": 73,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "MarkShawn2020/lovcode": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 302,
+      "quality_score": 67,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "nyatinte/ccexp": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 258,
+      "quality_score": 71,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "Mizoreww/awesome-claude-code-config": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 176,
+      "quality_score": 75,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "telagod/code-abyss": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 127,
+      "quality_score": 73,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "levu304/claude-code-boilerplate": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 116,
+      "quality_score": 54,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "DatafyingTech/Claude-Agent-Team-Manager": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 107,
+      "quality_score": 67,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "eticmedya/uces": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 107,
+      "quality_score": 62,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "nokonoko1203/claude-code-settings": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 90,
+      "quality_score": 64,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "lirantal/ls-mcp": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 79,
+      "quality_score": 62,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "miroapp/miro-ai": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 74,
+      "quality_score": 71,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "fubak/ferret-scan": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 73,
+      "quality_score": 62,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "marcusgoll/Spec-Flow": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 73,
+      "quality_score": 54,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "ChanMeng666/claude-code-audio-hooks": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 32,
+      "quality_score": 67,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "toroleapinc/claude-brain": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 32,
+      "quality_score": 63,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "gsd-build/get-shit-done": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 41277,
+      "quality_score": 99,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "treylom/prompt-engineering-skills": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 55,
+      "quality_score": 71,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "milisp/awesome-claude-dxt": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 165,
+      "quality_score": 75,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "vasylenko/claude-desktop-extension-bear-notes": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 145,
+      "quality_score": 65,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "Open-Document-Alliance/PDF-Tools": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 113,
+      "quality_score": 73,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "MadLlama25/fastmail-mcp": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 88,
+      "quality_score": 74,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "HarmonicSecurity/claudit-sec": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 88,
+      "quality_score": 68,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "lugia19/Claude-WebExtension-Launcher": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 81,
+      "quality_score": 66,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "mbmccormick/things-mcpb": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 44,
+      "quality_score": 48,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "thedotmack/claude-mem": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 40437,
+      "quality_score": 99,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "jarrodwatts/claude-hud": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 13008,
+      "quality_score": 91,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "EveryInc/compound-engineering-plugin": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 11088,
+      "quality_score": 94,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "ykdojo/claude-code-tips": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 6713,
+      "quality_score": 89,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "YishenTu/claudian": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 5073,
+      "quality_score": 88,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "agenticnotetaking/arscontexta": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 2849,
+      "quality_score": 79,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "zhukunpenglinyutong/idea-claude-code-gui": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 2140,
+      "quality_score": 87,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "greggh/claude-code.nvim": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 1954,
+      "quality_score": 72,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "jeremylongshore/claude-code-plugins-plus-skills": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 1708,
+      "quality_score": 87,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "CoderGamester/mcp-unity": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 1510,
+      "quality_score": 86,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "numman-ali/n-skills": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 942,
+      "quality_score": 83,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "jarrodwatts/claude-delegator": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 921,
+      "quality_score": 73,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "obra/superpowers-marketplace": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 730,
+      "quality_score": 77,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "team-attention/plugins-for-claude-natives": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 690,
+      "quality_score": 77,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "agent-sh/agentsys": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 643,
+      "quality_score": 82,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "shareAI-lab/learn-claude-code": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 38563,
+      "quality_score": 99,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "luongnv89/claude-howto": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 1135,
+      "quality_score": 84,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "0xfnzero/AI-Code-Tutorials": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 53,
+      "quality_score": 54,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "RosyGameStudio/forge-gpu": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 40,
+      "quality_score": 67,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "young1lin/cc-tutorial": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 33,
+      "quality_score": 62,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "ballred/obsidian-claude-pkm": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 1267,
+      "quality_score": 74,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "study8677/antigravity-workspace-template": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 1055,
+      "quality_score": 85,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "TheDecipherist/claude-code-mastery-project-starter-kit": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 255,
+      "quality_score": 68,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "cloudnative-co/claude-code-starter-kit": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 102,
+      "quality_score": 71,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "mp-web3/claude-starter-kit": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 67,
+      "quality_score": 71,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "ammonhaggerty/ai-coding-primer": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 65,
+      "quality_score": 60,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "VoltAgent/awesome-claude-code-subagents": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 15122,
+      "quality_score": 96,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "dontriskit/awesome-ai-system-prompts": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 5610,
+      "quality_score": 82,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "vijaythecoder/awesome-claude-agents": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 4091,
+      "quality_score": 74,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "milisp/codexia": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 506,
+      "quality_score": 75,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "mehmetkahya0/AI-Catalog": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 481,
+      "quality_score": 80,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "JackyST0/awesome-agent-skills": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 410,
+      "quality_score": 79,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "LimHyungTae/awesome-claudecode-paper-proofreading": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 271,
+      "quality_score": 78,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "menkesu/awesome-pm-skills": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 268,
+      "quality_score": 69,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "cassler/awesome-claude-code-setup": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 259,
+      "quality_score": 59,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "jqueryscript/awesome-claude-code": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 215,
+      "quality_score": 78,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "karanb192/awesome-claude-skills": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 202,
+      "quality_score": 60,
+      "status": "deposited",
+      "source": "github_search"
+    },
+    "littleben/awesomeAgentskills": {
+      "first_seen": "2026-03-25",
+      "stars_at_discovery": 151,
+      "quality_score": 65,
+      "status": "deposited",
+      "source": "github_search"
+    }
+  },
   "npm_packages": {},
   "run_stats": {
-    "total_runs": 0,
-    "total_discovered": 0,
+    "total_runs": 1,
+    "total_discovered": 214,
     "total_passed_filters": 0,
-    "total_deposited": 0
+    "total_deposited": 214
   }
 }
