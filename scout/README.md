@@ -1,10 +1,8 @@
 # Scout — Auto-Discovery System (Phase 2)
 
-> **Status: Not yet implemented.** This directory is a placeholder.
-> The scout will be built in a dedicated session using the spec in
-> `C:\Users\mbern\Downloads\claude-arsenal-final.md` (PROMPT 4).
-> Note: this path is local to the Windows machine — on the VPS or other machines,
-> refer to the spec by cloning the repo and checking git history.
+> **Status: Implemented. Run setup.sh on the VPS to deploy.**
+> All 34 tests passing. Deployed via cron every Monday at 06:00 UTC.
+> See git history for the complete implementation spec.
 
 ---
 
