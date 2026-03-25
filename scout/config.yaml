@@ -1,0 +1,70 @@
+# === SOURCES ===
+
+github:
+  token_env: "GITHUB_TOKEN"  # env var name, NOT the actual token
+
+  search_queries:
+    - "claude code mcp server"
+    - "claude code skill"
+    - "claude code workflow"
+    - "claude code hook"
+    - "claude code agent subagent"
+    - "claude code CLAUDE.md"
+    - "anthropic mcp server"
+    - "model context protocol server"
+    - "claude code configuration"
+    - "claude code bash automation"
+    - "claude code prompt engineering"
+    - "claude desktop extension"
+    - "claude code plugin"
+    - "claude code tutorial"
+    - "claude code starter kit"
+    - "awesome claude code"
+
+  min_stars: 30
+  max_days_since_last_push: 180
+  must_have_readme: true
+  must_have_license: true
+  exclude_forks: true
+  exclude_archived: true
+  results_per_query: 30
+
+awesome_lists:
+  repos:
+    - "hesreallyhim/awesome-claude-code"
+    - "punkpeye/awesome-mcp-servers"
+    - "alvinunreal/awesome-claude"
+    - "tonysurfly/awesome-claude"
+    - "travisvn/awesome-claude-skills"
+    - "BehiSecc/awesome-claude-skills"
+    - "VoltAgent/awesome-claude-code-subagents"
+
+npm_registry:
+  search_keywords:
+    - "mcp-server"
+    - "claude-code"
+    - "model-context-protocol"
+  min_weekly_downloads: 50
+  min_age_days: 14
+
+# === QUALITY THRESHOLDS ===
+
+quality:
+  min_score: 35
+
+  scoring:
+    stars_max_points: 40
+    recency_max_points: 25
+    docs_max_points: 20
+    community_max_points: 15
+
+# === OUTPUT ===
+
+output:
+  inbox_path: "../inbox"
+  filename_template: "scout-{date}-{repo_slug}.md"
+
+# === SCHEDULING ===
+
+schedule:
+  suggested_cron: "0 6 * * 1"  # every Monday at 06:00 UTC
