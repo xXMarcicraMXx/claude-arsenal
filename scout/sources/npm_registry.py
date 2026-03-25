@@ -8,7 +8,7 @@ from datetime import datetime, timezone
 import requests
 
 from sources.github_search import build_repo_dict
-from sources.scoring import compute_quality_score
+from sources.scoring import compute_quality_score_detailed
 
 NPM_SEARCH = "https://registry.npmjs.org/-/v1/search"
 NPM_DOWNLOADS = "https://api.npmjs.org/downloads/point/last-week/{name}"
@@ -131,8 +131,12 @@ class NpmRegistrySource:
                             github_entry = build_repo_dict(metadata, readme_resp)
                             github_entry.update(entry)
                             github_entry["source"] = "npm_registry"
-                            score = compute_quality_score(github_entry, self.scoring_config)
-                            github_entry["quality_score"] = score
+                            breakdown = compute_quality_score_detailed(github_entry, self.scoring_config)
+                            github_entry["quality_score"] = breakdown["score"]
+                            github_entry["_score_stars"] = breakdown["stars"]
+                            github_entry["_score_recency"] = breakdown["recency"]
+                            github_entry["_score_docs"] = breakdown["docs"]
+                            github_entry["_score_community"] = breakdown["community"]
                             results.append(github_entry)
                             seen_in_run.add(slug)
                         else:

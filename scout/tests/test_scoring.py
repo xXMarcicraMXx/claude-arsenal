@@ -1,5 +1,5 @@
 import pytest
-from sources.scoring import compute_quality_score
+from sources.scoring import compute_quality_score, compute_quality_score_detailed
 
 SCORING_CONFIG = {
     "stars_max_points": 40,
@@ -74,3 +74,39 @@ def test_score_never_exceeds_100():
     repo = make_repo(stars=1_000_000, days_since_push=1, readme_length=100_000, forks=100_000, has_issues=True, has_wiki=True)
     score = compute_quality_score(repo, SCORING_CONFIG)
     assert score <= 100
+
+
+# ── compute_quality_score_detailed tests ─────────────────────────────────────
+
+def test_detailed_returns_dict_with_all_keys():
+    repo = make_repo()
+    result = compute_quality_score_detailed(repo, SCORING_CONFIG)
+    assert isinstance(result, dict)
+    for key in ("score", "stars", "recency", "docs", "community"):
+        assert key in result
+
+
+def test_detailed_score_matches_compute_quality_score():
+    repo = make_repo()
+    assert compute_quality_score_detailed(repo, SCORING_CONFIG)["score"] == compute_quality_score(repo, SCORING_CONFIG)
+
+
+def test_detailed_components_are_non_negative():
+    repo = make_repo()
+    result = compute_quality_score_detailed(repo, SCORING_CONFIG)
+    assert result["stars"] >= 0
+    assert result["recency"] >= 0
+    assert result["docs"] >= 0
+    assert result["community"] >= 0
+
+
+def test_detailed_zero_repo_all_zeros():
+    repo = make_repo(stars=0, forks=0, has_issues=False, has_wiki=False, readme_length=0, days_since_push=999)
+    result = compute_quality_score_detailed(repo, SCORING_CONFIG)
+    assert result == {"score": 0, "stars": 0, "recency": 0, "docs": 0, "community": 0}
+
+
+def test_detailed_components_sum_to_score():
+    repo = make_repo()
+    result = compute_quality_score_detailed(repo, SCORING_CONFIG)
+    assert result["stars"] + result["recency"] + result["docs"] + result["community"] == result["score"]

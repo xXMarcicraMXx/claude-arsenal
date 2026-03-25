@@ -81,3 +81,60 @@ def test_should_skip_seen_npm():
     state = {"repos": {}, "npm_packages": {"my-package": {"status": "deposited"}}}
     repo = {"full_name": "npm:my-package"}
     assert should_skip(repo, state) is True
+
+
+def test_generate_inbox_entry_scoring_breakdown_populated():
+    repo = {
+        "full_name": "owner/repo",
+        "description": "A test repo",
+        "url": "https://github.com/owner/repo",
+        "stars": 500,
+        "forks": 20,
+        "open_issues": 5,
+        "language": "Python",
+        "license": "MIT",
+        "last_push": "2026-03-20",
+        "created": "2025-01-01",
+        "topics": ["mcp"],
+        "homepage": "",
+        "quality_score": 55,
+        "source": "github_search",
+        "query_matched": "claude mcp",
+        "readme_excerpt": "This is a readme",
+        "_score_stars": 20,
+        "_score_recency": 15,
+        "_score_docs": 12,
+        "_score_community": 8,
+    }
+    entry = generate_inbox_entry(repo)
+    assert "stars: 20" in entry
+    assert "recency: 15" in entry
+    assert "docs: 12" in entry
+    assert "community: 8" in entry
+
+
+def test_generate_inbox_entry_scoring_breakdown_defaults_to_zero():
+    repo = {
+        "full_name": "owner/repo",
+        "description": "A test repo",
+        "url": "https://github.com/owner/repo",
+        "stars": 100,
+        "forks": 5,
+        "open_issues": 1,
+        "language": "Python",
+        "license": "MIT",
+        "last_push": "2026-03-20",
+        "created": "2025-01-01",
+        "topics": [],
+        "homepage": "",
+        "quality_score": 30,
+        "source": "github_search",
+        "query_matched": "claude mcp",
+        "readme_excerpt": "",
+        # _score_* keys intentionally absent
+    }
+    entry = generate_inbox_entry(repo)
+    assert "stars: 0" in entry
+    assert "recency: 0" in entry
+    assert "docs: 0" in entry
+    assert "community: 0" in entry

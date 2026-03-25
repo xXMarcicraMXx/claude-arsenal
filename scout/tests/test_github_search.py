@@ -91,18 +91,20 @@ def test_build_repo_dict_handles_missing_readme():
     assert result["readme_excerpt"] == ""
 
 
+SCORING_CONFIG = {
+    "stars_max_points": 40,
+    "recency_max_points": 25,
+    "docs_max_points": 20,
+    "community_max_points": 15,
+}
+
+
 def test_github_search_source_skips_seen_repos():
     config = {
         "token_env": "GITHUB_TOKEN",
         "search_queries": ["claude mcp"],
         "results_per_query": 5,
         **FILTER_CONFIG,
-    }
-    scoring_config = {
-        "stars_max_points": 40,
-        "recency_max_points": 25,
-        "docs_max_points": 20,
-        "community_max_points": 15,
     }
     seen = {"owner/repo"}
 
@@ -112,7 +114,97 @@ def test_github_search_source_skips_seen_repos():
     mock_search_response.json.return_value = {"items": [SAMPLE_REPO]}
 
     with patch("sources.github_search.requests.get", return_value=mock_search_response):
-        source = GitHubSearchSource(config, scoring_config)
+        source = GitHubSearchSource(config, SCORING_CONFIG)
         results = source.search(seen)
 
     assert len(results) == 0
+
+
+def _make_search_response(items):
+    mock = MagicMock()
+    mock.status_code = 200
+    mock.headers = {"X-RateLimit-Remaining": "100"}
+    mock.json.return_value = {"items": items}
+    return mock
+
+
+def _make_readme_response(content: str):
+    encoded = base64.b64encode(content.encode()).decode()
+    mock = MagicMock()
+    mock.status_code = 200
+    mock.headers = {"X-RateLimit-Remaining": "100"}
+    mock.json.return_value = {"content": encoded, "encoding": "base64"}
+    return mock
+
+
+def test_search_result_has_scoring_breakdown_fields():
+    config = {
+        "token_env": "GITHUB_TOKEN",
+        "search_queries": ["claude mcp"],
+        "results_per_query": 5,
+        **FILTER_CONFIG,
+    }
+
+    search_mock = _make_search_response([SAMPLE_REPO])
+    readme_mock = _make_readme_response("x" * 3000)
+
+    with patch("sources.github_search.requests.get", side_effect=[search_mock, readme_mock]):
+        source = GitHubSearchSource(config, SCORING_CONFIG)
+        results = source.search(set())
+
+    assert len(results) == 1
+    repo = results[0]
+    for key in ("_score_stars", "_score_recency", "_score_docs", "_score_community"):
+        assert key in repo, f"Missing key: {key}"
+        assert repo[key] >= 0, f"{key} should be non-negative"
+
+
+def test_must_have_readme_filters_out_empty_readme():
+    config = {
+        "token_env": "GITHUB_TOKEN",
+        "search_queries": ["claude mcp"],
+        "results_per_query": 5,
+        "must_have_readme": True,
+        "min_stars": 0,
+        "max_days_since_last_push": 365,
+        "exclude_forks": False,
+        "exclude_archived": False,
+        "must_have_license": False,
+    }
+
+    search_mock = _make_search_response([SAMPLE_REPO])
+    # README fetch returns 404
+    no_readme_mock = MagicMock()
+    no_readme_mock.status_code = 404
+    no_readme_mock.headers = {"X-RateLimit-Remaining": "100"}
+
+    with patch("sources.github_search.requests.get", side_effect=[search_mock, no_readme_mock]):
+        source = GitHubSearchSource(config, SCORING_CONFIG)
+        results = source.search(set())
+
+    assert len(results) == 0
+
+
+def test_must_have_readme_false_allows_empty_readme():
+    config = {
+        "token_env": "GITHUB_TOKEN",
+        "search_queries": ["claude mcp"],
+        "results_per_query": 5,
+        "must_have_readme": False,
+        "min_stars": 0,
+        "max_days_since_last_push": 365,
+        "exclude_forks": False,
+        "exclude_archived": False,
+        "must_have_license": False,
+    }
+
+    search_mock = _make_search_response([SAMPLE_REPO])
+    no_readme_mock = MagicMock()
+    no_readme_mock.status_code = 404
+    no_readme_mock.headers = {"X-RateLimit-Remaining": "100"}
+
+    with patch("sources.github_search.requests.get", side_effect=[search_mock, no_readme_mock]):
+        source = GitHubSearchSource(config, SCORING_CONFIG)
+        results = source.search(set())
+
+    assert len(results) == 1

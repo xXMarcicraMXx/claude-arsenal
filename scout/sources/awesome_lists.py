@@ -10,7 +10,7 @@ import time
 import requests
 
 from sources.github_search import apply_hard_filters, build_repo_dict
-from sources.scoring import compute_quality_score
+from sources.scoring import compute_quality_score_detailed
 
 GITHUB_LINK_RE = re.compile(r"github\.com/([a-zA-Z0-9_.-]+/[a-zA-Z0-9_.-]+)")
 
@@ -112,8 +112,12 @@ class AwesomeListSource:
                 repo_dict["query_matched"] = f"awesome-list:{list_repo}"
                 repo_dict["source"] = "awesome_list"
 
-                score = compute_quality_score(repo_dict, self.scoring_config)
-                repo_dict["quality_score"] = score
+                breakdown = compute_quality_score_detailed(repo_dict, self.scoring_config)
+                repo_dict["quality_score"] = breakdown["score"]
+                repo_dict["_score_stars"] = breakdown["stars"]
+                repo_dict["_score_recency"] = breakdown["recency"]
+                repo_dict["_score_docs"] = breakdown["docs"]
+                repo_dict["_score_community"] = breakdown["community"]
 
                 results.append(repo_dict)
                 seen_in_run.add(slug)

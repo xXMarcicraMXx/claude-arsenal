@@ -5,9 +5,9 @@ No I/O, no network calls, no LLM — only math.
 import math
 
 
-def compute_quality_score(repo: dict, scoring: dict) -> int:
+def compute_quality_score_detailed(repo: dict, scoring: dict) -> dict:
     """
-    Compute a 0-100 quality score for a repo based purely on metrics.
+    Compute a 0-100 quality score broken down by component.
 
     Args:
         repo: dict with keys: stars, days_since_push, readme_length,
@@ -16,14 +16,13 @@ def compute_quality_score(repo: dict, scoring: dict) -> int:
                  docs_max_points, community_max_points
 
     Returns:
-        Integer score 0-100.
+        Dict with keys: score, stars, recency, docs, community (all ints).
     """
-    score = 0
-
     # Stars (0-stars_max_points) — logarithmic scale, 50k stars = max
+    stars_pts = 0
     if repo.get("stars", 0) > 0:
         normalized = min(math.log(repo["stars"]) / math.log(50000), 1.0)
-        score += round(normalized * scoring["stars_max_points"])
+        stars_pts = round(normalized * scoring["stars_max_points"])
 
     # Recency (0-recency_max_points)
     days = repo.get("days_since_push", 999)
@@ -37,7 +36,7 @@ def compute_quality_score(repo: dict, scoring: dict) -> int:
         r = 0.3
     else:
         r = 0.0
-    score += round(r * scoring["recency_max_points"])
+    recency_pts = round(r * scoring["recency_max_points"])
 
     # Documentation (0-docs_max_points)
     readme_len = repo.get("readme_length", 0)
@@ -49,7 +48,7 @@ def compute_quality_score(repo: dict, scoring: dict) -> int:
         d = 0.4
     else:
         d = 0.0
-    score += round(d * scoring["docs_max_points"])
+    docs_pts = round(d * scoring["docs_max_points"])
 
     # Community (0-community_max_points)
     forks = repo.get("forks", 0)
@@ -60,6 +59,29 @@ def compute_quality_score(repo: dict, scoring: dict) -> int:
         c += 0.25
     if repo.get("has_wiki", False):
         c += 0.25
-    score += round(c * scoring["community_max_points"])
+    community_pts = round(c * scoring["community_max_points"])
 
-    return score
+    total = stars_pts + recency_pts + docs_pts + community_pts
+    return {
+        "score": total,
+        "stars": stars_pts,
+        "recency": recency_pts,
+        "docs": docs_pts,
+        "community": community_pts,
+    }
+
+
+def compute_quality_score(repo: dict, scoring: dict) -> int:
+    """
+    Compute a 0-100 quality score for a repo based purely on metrics.
+
+    Args:
+        repo: dict with keys: stars, days_since_push, readme_length,
+              forks, has_issues, has_wiki
+        scoring: dict with keys: stars_max_points, recency_max_points,
+                 docs_max_points, community_max_points
+
+    Returns:
+        Integer score 0-100.
+    """
+    return compute_quality_score_detailed(repo, scoring)["score"]

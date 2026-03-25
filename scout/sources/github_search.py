@@ -9,7 +9,7 @@ from datetime import datetime, timezone
 
 import requests
 
-from sources.scoring import compute_quality_score
+from sources.scoring import compute_quality_score_detailed
 
 
 def _days_since(iso_date: str) -> int:
@@ -135,8 +135,15 @@ class GitHubSearchSource:
                     repo_dict = build_repo_dict(item, readme)
                     repo_dict["query_matched"] = query
 
-                    score = compute_quality_score(repo_dict, self.scoring_config)
-                    repo_dict["quality_score"] = score
+                    if self.config.get("must_have_readme") and repo_dict.get("readme_length", 0) == 0:
+                        continue
+
+                    breakdown = compute_quality_score_detailed(repo_dict, self.scoring_config)
+                    repo_dict["quality_score"] = breakdown["score"]
+                    repo_dict["_score_stars"] = breakdown["stars"]
+                    repo_dict["_score_recency"] = breakdown["recency"]
+                    repo_dict["_score_docs"] = breakdown["docs"]
+                    repo_dict["_score_community"] = breakdown["community"]
 
                     results.append(repo_dict)
                     seen_in_run.add(full_name)
