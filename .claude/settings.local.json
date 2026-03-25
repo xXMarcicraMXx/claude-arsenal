@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(inbox/**)",
+      "Read(library/**)",
+      "Read(rejected/**)",
+      "Read(catalog.md)",
+      "Read(scripts/triage.md)",
+      "Write(library/**)",
+      "Write(rejected/**)",
+      "Write(catalog.md)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git push)"
+    ]
+  }
+}
