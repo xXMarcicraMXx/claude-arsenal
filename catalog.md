@@ -1,12 +1,202 @@
 # Arsenal Catalog
 
-> Last updated: 2026-03-24
-> Total entries: 0 | SAFE: 0 | REVIEW: 0 | DANGER: 0
-> Sources: Manual: 0 | Scout: 0 | Social: 0
+> Last updated: 2026-03-25
+> Total entries: 191 | SAFE: 38 | REVIEW: 153 | DANGER: 0
+> Sources: Manual: 0 | Scout: 202 | Social: 0
 
 | ID | Title | Category | Risk | Score | Source | Tags | Date | AI Summary |
 |----|-------|----------|------|-------|--------|------|------|------------|
-| — | — | — | — | — | — | — | — | — |
+| TIP-014 | Pm Claude Code Setup | prompts | SAFE | 5 | https://github.com/aakashg/pm-claude-code-setup | ai, ai-tools, claude, prompts | 2026-03-25 | Ready-to-use CLAUDE.md and starter skill for product managers using Claude Code.... |
+| TIP-015 | Agentshield | mcp-servers | REVIEW | 7 | https://github.com/affaan-m/agentshield | ai-agent, anthropic, claude-code, typescript, mcp-servers | 2026-03-25 | AI agent security scanner. Detect vulnerabilities in agent configurations, MCP s... |
+| TIP-016 | Everything Claude Code | mcp-servers | REVIEW | 10 | https://github.com/affaan-m/everything-claude-code | ai-agents, anthropic, claude, javascript, mcp-servers | 2026-03-25 | The agent harness performance optimization system. Skills, instincts, memory, se... |
+| TIP-017 | Agentsys | scripts | REVIEW | 9 | https://github.com/agent-sh/agentsys | agent, ai, anthropic, javascript, scripts | 2026-03-25 | AI writes code. This automates everything else · 19 plugins, 47 agents, and 39 s... |
+| TIP-018 | Agnix | mcp-servers | REVIEW | 7 | https://github.com/agent-sh/agnix | agent, ai, ai-agents, rust, mcp-servers | 2026-03-25 | The missing linter and lsp for AI coding assistants. Validate CLAUDE.md, AGENTS.... |
+| TIP-019 | Arscontexta | workflows | REVIEW | 10 | https://github.com/agenticnotetaking/arscontexta | claude-code, claude-code-plugin, knowledge-base, shell, workflows | 2026-03-25 | Claude Code plugin that generates individualized knowledge systems from conversa... |
+| TIP-021 | Claude Skills | prompts | SAFE | 10 | https://github.com/alirezarezvani/claude-skills | agent-plugins, agent-skills, agentic-ai, python, prompts | 2026-03-25 | +192 Claude Code skills & agent plugins for Claude Code, Codex, Gemini CLI, Curs... |
+| TIP-022 | Claudeforge | prompts | SAFE | 6 | https://github.com/alirezarezvani/ClaudeForge | agentic-ai, agentic-workflow, claude-code, python, prompts | 2026-03-25 | A CLAUDE.md Generator and Maintenance tool for for Claude Code to create high-qu... |
+| TIP-023 | Ai Coding Primer | configs | SAFE | 5 | https://github.com/ammonhaggerty/ai-coding-primer | ai-assisted-development, beginners, claude-code, typescript, configs | 2026-03-25 | An open-source guidebook and starter kit for building full-stack products with C... |
+| TIP-024 | Obsidian Claude Pkm | configs | SAFE | 9 | https://github.com/ballred/obsidian-claude-pkm | ai-agents, claude-code, goal-tracking, shell, configs | 2026-03-25 | A complete starter kit for an Obsidian + Claude Code personal knowledge manageme... |
+| TIP-025 | Mcp Server Mysql | mcp-servers | REVIEW | 10 | https://github.com/benborla/mcp-server-mysql | javascript, mcp-servers | 2026-03-25 | A Model Context Protocol server that provides read-only access to MySQL database... |
+| TIP-026 | Chrome Devtools Mcp | mcp-servers | REVIEW | 6 | https://github.com/benjaminr/chrome-devtools-mcp | chrome, chromium, chromium-browser, python, mcp-servers | 2026-03-25 | An MCP Server for Chrome DevTools, following the Chrome DevTools Protocol. Integ... |
+| TIP-027 | Mcp Neovim Server | mcp-servers | REVIEW | 6 | https://github.com/bigcodegen/mcp-neovim-server | anthropic, claude, mcp, typescript, mcp-servers | 2026-03-25 | Control Neovim using Model Context Protocol  and the official neovim/node-client... |
+| TIP-028 | Humanizer | workflows | REVIEW | 10 | https://github.com/blader/humanizer | workflows | 2026-03-25 | Claude Code skill that removes signs of AI-generated writing from text.... |
+| TIP-029 | Taskmaster | scripts | REVIEW | 7 | https://github.com/blader/taskmaster | shell, scripts | 2026-03-25 | Stop hook for Claude Code that keeps the agent working until all plans and user ... |
+| TIP-030 | Arxiv Mcp Server | mcp-servers | REVIEW | 10 | https://github.com/blazickjp/arxiv-mcp-server | ai, arxiv, claude-ai, python, mcp-servers | 2026-03-25 | A Model Context Protocol server for searching and analyzing arXiv papers.... |
+| TIP-031 | Brightdata Mcp | mcp-servers | REVIEW | 10 | https://github.com/brightdata/brightdata-mcp | ai-agents, ai-integrations, anti-bot-detection, javascript, mcp-servers | 2026-03-25 | A powerful Model Context Protocol  server that provides an all-in-one solution f... |
+| TIP-032 | Dbhub | mcp-servers | REVIEW | 10 | https://github.com/bytebase/dbhub | agents, ai, anthropic, typescript, mcp-servers | 2026-03-25 | Zero-dependency, token-efficient database MCP server for Postgres, MySQL, SQL Se... |
+| TIP-033 | Polymarket Mcp Server | mcp-servers | REVIEW | 7 | https://github.com/caiovicentino/polymarket-mcp-server | ai-trading, anthropic, autonomous-trading, python, mcp-servers | 2026-03-25 | 🤖 AI-Powered MCP Server for Polymarket - Enable Claude to trade prediction marke... |
+| TIP-034 | Oh My Pi | mcp-servers | REVIEW | 10 | https://github.com/can1357/oh-my-pi | ai-agent, ai-coding-agent, anthropic, typescript, mcp-servers | 2026-03-25 | ⌥  AI Coding agent for the terminal — hash-anchored edits, optimized tool harnes... |
+| TIP-035 | Claudekit | scripts | REVIEW | 8 | https://github.com/carlrannaberg/claudekit | typescript, scripts | 2026-03-25 | A toolkit of custom commands, hooks, and utilities for Claude Code.... |
+| TIP-036 | Awesome Claude Code Setup | configs | SAFE | 6 | https://github.com/cassler/awesome-claude-code-setup | shell, configs | 2026-03-25 | Give Claude the super powers it deserves with this power user collection of bash... |
+| TIP-037 | Suitagent | workflows | REVIEW | 6 | https://github.com/cat-xierluo/SuitAgent | python, workflows | 2026-03-25 | 基于 Claude Code 的诉讼法律服务智能分析系统，采用10个 SubAgents 协作的模式，将复杂的诉讼案件分析分解为多个可独立执行的工作流，实现法律... |
+| TIP-038 | Claude Code Workflow | scripts | REVIEW | 10 | https://github.com/catlog22/Claude-Code-Workflow | claude, claude-code, cli-tools, typescript, scripts | 2026-03-25 | JSON-driven multi-agent  cadence-team development framework with   intelligent C... |
+| TIP-039 | Awesome Claude Code Plugins | mcp-servers | REVIEW | 8 | https://github.com/ccplugins/awesome-claude-code-plugins | awesome-claude-code, awesome-list, awesome-plugins, python, mcp-servers | 2026-03-25 | Awesome Claude Code plugins — a curated list of slash commands, subagents, MCP s... |
+| TIP-040 | My Claude Code Setup | prompts | SAFE | 10 | https://github.com/centminmod/my-claude-code-setup | claude, claude-ai, claude-code, python, prompts | 2026-03-25 | Shared starter template configuration and CLAUDE.md memory bank system for Claud... |
+| TIP-041 | Claude Code Starter Kit | configs | SAFE | 7 | https://github.com/cloudnative-co/claude-code-starter-kit | shell, configs | 2026-03-25 | One-command setup of a complete Claude Code development environment with interac... |
+| TIP-042 | Kubernetes Mcp Server | mcp-servers | REVIEW | 10 | https://github.com/containers/kubernetes-mcp-server | containers, context, kubernetes, go, mcp-servers | 2026-03-25 | Model Context Protocol  server for Kubernetes and OpenShift.... |
+| TIP-043 | Marketingskills | workflows | REVIEW | 10 | https://github.com/coreyhaines31/marketingskills | claude, codex, marketing, javascript, workflows | 2026-03-25 | Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics... |
+| TIP-044 | Devdocs | mcp-servers | REVIEW | 10 | https://github.com/cyberagiinc/DevDocs | cline, crawl4ai, cursor, typescript, mcp-servers | 2026-03-25 | Completely free, private, UI based Tech Documentation MCP server. Designed for c... |
+| TIP-045 | N8N Mcp | mcp-servers | REVIEW | 10 | https://github.com/czlonkowski/n8n-mcp | mcp, mcp-server, n8n, typescript, mcp-servers | 2026-03-25 | A MCP for Claude Desktop / Claude Code / Windsurf / Cursor to build n8n workflow... |
+| TIP-046 | N8N Skills | scripts | REVIEW | 10 | https://github.com/czlonkowski/n8n-skills | ai-agents, n8n, workflow-automation, shell, scripts | 2026-03-25 | N8n skillset for Claude Code to build flawless n8n workflows.... |
+| TIP-047 | Buildwithclaude | mcp-servers | REVIEW | 10 | https://github.com/davepoon/buildwithclaude | claude, claude-code, claude-code-commands, python, mcp-servers | 2026-03-25 | A single hub to find Claude Skills, Agents, Commands, Hooks, Plugins, and Market... |
+| TIP-048 | Claude Code Infrastructure Showcase | scripts | REVIEW | 10 | https://github.com/diet103/claude-code-infrastructure-showcase | shell, scripts | 2026-03-25 | Examples of my Claude Code infrastructure with skill auto-activation, hooks, and... |
+| TIP-049 | Writing Agent | workflows | REVIEW | 7 | https://github.com/dongbeixiaohuo/writing-agent | ai-writing, claude-code, content-generation, javascript, workflows | 2026-03-25 | 一个基于 Claude Code  的“去AI味”全栈写作系统。不仅防套路，更通过专属规则强制注入人类观点与细节，搭配读者测试评估与自动图文排版。全面支持 De... |
+| TIP-050 | Awesome Ai System Prompts | prompts | SAFE | 10 | https://github.com/dontriskit/awesome-ai-system-prompts | typescript, prompts | 2026-03-25 | 🧠 Curated collection of system prompts for top AI tools.  Incuding: ChatGPT, Cla... |
+| TIP-051 | Mcp Server | mcp-servers | REVIEW | 7 | https://github.com/e2b-dev/mcp-server | anthropic, claude, claude-3-5-sonnet, javascript, mcp-servers | 2026-03-25 | Giving Claude ability to run code with E2B via MCP.... |
+| TIP-053 | Mcp Server Code Execution Mode | mcp-servers | REVIEW | 6 | https://github.com/elusznik/mcp-server-code-execution-mode | agentic-ai, agents, anthropic, python, mcp-servers | 2026-03-25 | An MCP server that executes Python code in isolated rootless containers with opt... |
+| TIP-054 | Cli | scripts | REVIEW | 10 | https://github.com/entireio/cli | agents, ai, claude, go, scripts | 2026-03-25 | Entire is a new developer platform that hooks into your git workflow to capture ... |
+| TIP-055 | Uces | configs | SAFE | 6 | https://github.com/eticmedya/uces | shell, configs | 2026-03-25 | Production-grade configuration system for Claude Code CLI with smart routing, sk... |
+| TIP-056 | Mcp Playwright | mcp-servers | REVIEW | 10 | https://github.com/executeautomation/mcp-playwright | typescript, mcp-servers | 2026-03-25 | Playwright Model Context Protocol Server - Tool to automate Browsers and APIs in... |
+| TIP-057 | Mcptools | mcp-servers | REVIEW | 9 | https://github.com/f/mcptools | mcp, mcp-server, modelcontextprotocol, go, mcp-servers | 2026-03-25 | A command-line interface for interacting with MCP  servers using both stdio and ... |
+| TIP-058 | Claude Codex Settings | mcp-servers | REVIEW | 9 | https://github.com/fcakyon/claude-codex-settings | ai-agents, ai-tools, claude-ai, python, mcp-servers | 2026-03-25 | My personal Claude Code and OpenAI Codex setup with battle-tested skills, comman... |
+| TIP-059 | Claude Code Ultimate Guide | mcp-servers | REVIEW | 10 | https://github.com/FlorianBruniaux/claude-code-ultimate-guide | agentic-coding, ai-assistant, ai-coding, typescript, mcp-servers | 2026-03-25 | A tremendous feat of documentation, this guide covers Claude Code from beginner ... |
+| TIP-061 | Raptor | prompts | SAFE | 10 | https://github.com/gadievron/raptor | python, prompts | 2026-03-25 | Raptor turns Claude Code into a general-purpose AI offensive/defensive security ... |
+| TIP-062 | Xcodebuildmcp | mcp-servers | REVIEW | 10 | https://github.com/getsentry/XcodeBuildMCP | mcp, mcp-server, model-context-protocol, typescript, mcp-servers | 2026-03-25 | A Model Context Protocol  server and CLI that provides tools for agent use when ... |
+| TIP-063 | Cc Sdd | workflows | REVIEW | 10 | https://github.com/gotalab/cc-sdd | claude-code, codex, cursor, typescript, workflows | 2026-03-25 | Spec-driven development  for your team's workflow. Kiro style commands that enfo... |
+| TIP-064 | Claude Code.Nvim | workflows | REVIEW | 9 | https://github.com/greggh/claude-code.nvim | ai-assistant, anthropic, claude, lua, workflows | 2026-03-25 | Seamless integration between Claude Code AI assistant and Neovim.... |
+| TIP-065 | Get Shit Done | prompts | SAFE | 10 | https://github.com/gsd-build/get-shit-done | claude-code, context-engineering, meta-prompting, javascript, prompts | 2026-03-25 | A light-weight and powerful meta-prompting, context engineering and spec-driven ... |
+| TIP-067 | Mcp Chrome | mcp-servers | REVIEW | 10 | https://github.com/hangwin/mcp-chrome | typescript, mcp-servers | 2026-03-25 | Chrome MCP Server is a Chrome extension-based Model Context Protocol  server tha... |
+| TIP-068 | Excel Mcp Server | mcp-servers | REVIEW | 10 | https://github.com/haris-musa/excel-mcp-server | ai, automation, excel, python, mcp-servers | 2026-03-25 | A Model Context Protocol server for Excel file manipulation.... |
+| TIP-069 | Claudit Sec | mcp-servers | REVIEW | 5 | https://github.com/HarmonicSecurity/claudit-sec | ai-security, audit-tool, claude, shell, mcp-servers | 2026-03-25 | Security audit tool for Claude Desktop and Claude Code on macOS — single-command... |
+| TIP-070 | Awesome Agent Skills | mcp-servers | REVIEW | 10 | https://github.com/heilcheng/awesome-agent-skills | agent-skills, ai-agents, ai-development, mcp-servers | 2026-03-25 | A curated list of skills, tools, tutorials, and capabilities for AI coding agent... |
+| TIP-071 | Awesome Claude Code | scripts | REVIEW | 10 | https://github.com/hesreallyhim/awesome-claude-code | agent-skills, agentic-code, agentic-coding, python, scripts | 2026-03-25 | A curated list of awesome skills, hooks, slash-commands, agent orchestrators, ap... |
+| TIP-072 | Git Mcp | mcp-servers | REVIEW | 10 | https://github.com/idosal/git-mcp | agentic-ai, agents, ai, typescript, mcp-servers | 2026-03-25 | Put an end to code hallucinations! GitMCP is a free, open-source, remote MCP ser... |
+| TIP-073 | Pasal | mcp-servers | REVIEW | 7 | https://github.com/ilhamfp/pasal | ai-native, anthropic, claude, typescript, mcp-servers | 2026-03-25 | Pasal.id - The first open, AI-native Indonesian legal platform. MCP server + RES... |
+| TIP-074 | Awesome Agent Skills | workflows | REVIEW | 7 | https://github.com/JackyST0/awesome-agent-skills | agent-skills, ai, awesome, shell, workflows | 2026-03-25 | 🤖 精选的 AI Agent Skills 列表，适用于 Cursor、Claude Code、GitHub Copilot 等 AI 编程工具.... |
+| TIP-075 | Claude Delegator | mcp-servers | REVIEW | 9 | https://github.com/jarrodwatts/claude-delegator | ai-agents, claude, claude-code, javascript, mcp-servers | 2026-03-25 | Delegate tasks to Codex and Gemini directly from within Claude Code.... |
+| TIP-076 | Claude Hud | workflows | REVIEW | 10 | https://github.com/jarrodwatts/claude-hud | anthropic, claude, claude-code, javascript, workflows | 2026-03-25 | A Claude Code plugin that shows what's happening - context usage, active tools, ... |
+| TIP-077 | Evasion Subagents | workflows | REVIEW | 7 | https://github.com/JDArmy/Evasion-SubAgents | python, workflows | 2026-03-25 | Claude Code 免杀 SubAgents.... |
+| TIP-078 | Claude Skills | workflows | REVIEW | 10 | https://github.com/Jeffallan/claude-skills | ai-agents, claude, claude-code, python, workflows | 2026-03-25 | 66 Specialized Skills for Full-Stack Developers. Transform Claude Code into your... |
+| TIP-079 | Claude Code Plugins Plus Skills | mcp-servers | REVIEW | 9 | https://github.com/jeremylongshore/claude-code-plugins-plus-skills | agent-skills, ai, ai-agents, python, mcp-servers | 2026-03-25 | 340 plugins + 1367 agent skills for Claude Code. Open-source marketplace with CC... |
+| TIP-080 | Awesome Claude Code | workflows | REVIEW | 7 | https://github.com/jqueryscript/awesome-claude-code | awesome-list, awesome-lists, claude, workflows | 2026-03-25 | A curated list of awesome tools, IDE integrations, frameworks, and other resourc... |
+| TIP-081 | Harness Engineering | prompts | SAFE | 5 | https://github.com/jrenaldi79/harness-engineering | agents-md, ai-agents, ai-coding, javascript, prompts | 2026-03-25 | Context engineering for coding agents - CLAUDE.md templates, mechanical enforcem... |
+| TIP-082 | Claudepro Directory | mcp-servers | REVIEW | 7 | https://github.com/JSONbored/claudepro-directory | ai-directory, ai-tools, anthropic, typescript, mcp-servers | 2026-03-25 | Claude Pro Directory is a searchable collection of pre-built configurations, MCP... |
+| TIP-083 | Awesome Claude Skills | scripts | REVIEW | 6 | https://github.com/karanb192/awesome-claude-skills | agent-skills, ai, anthropic, scripts | 2026-03-25 | 🎯 The definitive collection of 50+ verified Awesome Claude Skills for Claude Cod... |
+| TIP-084 | Claude Code Hooks | scripts | REVIEW | 6 | https://github.com/karanb192/claude-code-hooks | ai-tools, anthropic, automation, javascript, scripts | 2026-03-25 | 🪝 A growing collection of useful Claude Code hooks. Copy, paste, customize.... |
+| TIP-085 | Claude Code Safety Net | scripts | REVIEW | 10 | https://github.com/kenryu42/claude-code-safety-net | claude, claude-code, claude-code-plugin, typescript, scripts | 2026-03-25 | A coding agent hook that acts as a safety net, catching destructive git and file... |
+| TIP-086 | Apple Docs Mcp | mcp-servers | REVIEW | 10 | https://github.com/kimsungwhee/apple-docs-mcp | ai-assistant, api-documentation, apple, typescript, mcp-servers | 2026-03-25 | MCP server for Apple Developer Documentation - Search iOS/macOS/SwiftUI/UIKit do... |
+| TIP-087 | Laravel Claude Code Setup | mcp-servers | REVIEW | 7 | https://github.com/laraben/laravel-claude-code-setup | shell, mcp-servers | 2026-03-25 | One-command setup for AI-powered Laravel development with Claude Code and MCP se... |
+| TIP-088 | Claude Code Skills | mcp-servers | REVIEW | 7 | https://github.com/levnikolaevich/claude-code-skills | agile-workflows, ai-agents, anthropic, javascript, mcp-servers | 2026-03-25 | Plugin suite + bundled MCP servers for Claude Code. Full delivery lifecycle: Agi... |
+| TIP-089 | Claude Code Boilerplate | configs | SAFE | 6 | https://github.com/levu304/claude-code-boilerplate | configs | 2026-03-25 | Universal coding standards and AI agent configurations for Claude Code projects.... |
+| TIP-090 | Awesome Claudecode Paper Proofreading | prompts | SAFE | 7 | https://github.com/LimHyungTae/awesome-claudecode-paper-proofreading | prompts | 2026-03-25 | Claude Code-driven research paper proofreading prompt.... |
+| TIP-091 | Ls Mcp | mcp-servers | REVIEW | 5 | https://github.com/lirantal/ls-mcp | claude-ai, claude-desktop, cursor, typescript, mcp-servers | 2026-03-25 | List MCP Server configurations in your system used by AI applications like Curso... |
+| TIP-092 | Awesomeagentskills | workflows | REVIEW | 6 | https://github.com/littleben/awesomeAgentskills | agents, claude-code, skills, javascript, workflows | 2026-03-25 | A curated collection of skills for Claude Code and other AI agents | 精选的 Claude ... |
+| TIP-093 | Claude Webextension Launcher | software | REVIEW | 5 | https://github.com/lugia19/Claude-WebExtension-Launcher | go, software | 2026-03-25 | Creates a separate Claude Desktop instance with support for Web Extensions.... |
+| TIP-094 | Explore Claude Code | prompts | SAFE | 7 | https://github.com/LukeRenton/explore-claude-code | claude, claude-code, claude-skills, javascript, prompts | 2026-03-25 | Learn Claude Code by exploring it as it was designed - interactive IDE-style doc... |
+| TIP-095 | Understand Anything | workflows | REVIEW | 10 | https://github.com/Lum1104/Understand-Anything | antigravity-skills, claude-code, claude-skills, typescript, workflows | 2026-03-25 | Claude Code skills that turn any codebase into an interactive knowledge graph yo... |
+| TIP-096 | Claude Howto | workflows | REVIEW | 10 | https://github.com/luongnv89/claude-howto | claude-code, guide, tutorial, python, workflows | 2026-03-25 | A visual, example-driven guide to Claude Code — from basic concepts to advanced ... |
+| TIP-097 | Fastmail Mcp | mcp-servers | REVIEW | 5 | https://github.com/MadLlama25/fastmail-mcp | dxt, fastmail, fastmail-api, typescript, mcp-servers | 2026-03-25 | A Model Context Protocol  server that provides access to the Fastmail API, enabl... |
+| TIP-099 | Lovcode | configs | SAFE | 7 | https://github.com/MarkShawn2020/lovcode | ai-tools, claude-code, desktop-app, typescript, configs | 2026-03-25 | A desktop companion app for AI coding tools. Browse Claude Code chat history, ma... |
+| TIP-100 | Meta Ads Analyzer | mcp-servers | REVIEW | 7 | https://github.com/mathiaschu/meta-ads-analyzer | shell, mcp-servers | 2026-03-25 | Meta Ads Analyzer skill + MCP server for Claude Code. Breakdown Effect, Learning... |
+| TIP-102 | Ai Catalog | workflows | REVIEW | 7 | https://github.com/mehmetkahya0/AI-Catalog | agents, ai, artificial-intelligence, shell, workflows | 2026-03-25 | Huge AI models catalog. A curated list of AI tools, platforms, and resources acr... |
+| TIP-103 | Awesome Pm Skills | workflows | REVIEW | 5 | https://github.com/menkesu/awesome-pm-skills | ai, awesome-list, claude, workflows | 2026-03-25 | 28 AI-powered PM skills from Lenny's Podcast. Transform Claude Code & Cursor int... |
+| TIP-104 | Mcp | mcp-servers | REVIEW | 10 | https://github.com/microsoft/mcp | c#, mcp-servers | 2026-03-25 | Catalog of official Microsoft MCP  server implementations for AI-powered data ac... |
+| TIP-105 | Awesome Claude Dxt | mcp-servers | REVIEW | 7 | https://github.com/milisp/awesome-claude-dxt | awesome, awesome-list, claude, javascript, mcp-servers | 2026-03-25 | Awesome Claude Desktop Extensions   mcpb.... |
+| TIP-106 | Codexia | mcp-servers | REVIEW | 9 | https://github.com/milisp/codexia | agentic-ai, ai, ai-agents, typescript, mcp-servers | 2026-03-25 | Agent Workstation for Codex CLI + Claude Code — with task scheduler, git worktre... |
+| TIP-107 | Mcp Linker | mcp-servers | REVIEW | 7 | https://github.com/milisp/mcp-linker | ai, awesome, claude, typescript, mcp-servers | 2026-03-25 | Mcp store manager, add & syncs MCP server configurations across clients like Cla... |
+| TIP-108 | Minimax Mcp | mcp-servers | REVIEW | 9 | https://github.com/MiniMax-AI/MiniMax-MCP | image-generation, image-to-video, mcp, python, mcp-servers | 2026-03-25 | Official MiniMax Model Context Protocol  server that enables interaction with po... |
+| TIP-109 | Miro Ai | mcp-servers | REVIEW | 5 | https://github.com/miroapp/miro-ai | typescript, mcp-servers | 2026-03-25 | Official Miro AI developer tools and integrations. Includes MCP server configura... |
+| TIP-110 | Awesome Claude Code Config | mcp-servers | REVIEW | 7 | https://github.com/Mizoreww/awesome-claude-code-config | shell, mcp-servers | 2026-03-25 | Production-ready Claude Code configuration with self-improvement loop, multi-lan... |
+| TIP-111 | Agentrove | mcp-servers | REVIEW | 7 | https://github.com/Mng-dev-ai/agentrove | agent, anthropic, claude, typescript, mcp-servers | 2026-03-25 | Your own Claude Code UI, sandbox, in-browser VS Code, terminal, multi-provider s... |
+| TIP-112 | Mobile Mcp | mcp-servers | REVIEW | 10 | https://github.com/mobile-next/mobile-mcp | agent, android, emulator, typescript, mcp-servers | 2026-03-25 | Model Context Protocol Server for Mobile Automation and Scraping.... |
+| TIP-113 | Csharp Sdk | mcp-servers | REVIEW | 10 | https://github.com/modelcontextprotocol/csharp-sdk | c#, mcp-servers | 2026-03-25 | The official C# SDK for Model Context Protocol servers and clients. Maintained i... |
+| TIP-114 | Go Sdk | mcp-servers | REVIEW | 10 | https://github.com/modelcontextprotocol/go-sdk | go, mcp, mcp-servers | 2026-03-25 | The official Go SDK for Model Context Protocol servers and clients. Maintained i... |
+| TIP-115 | Java Sdk | mcp-servers | REVIEW | 10 | https://github.com/modelcontextprotocol/java-sdk | java, mcp-servers | 2026-03-25 | The official Java SDK for Model Context Protocol servers and clients. Maintained... |
+| TIP-116 | Php Sdk | mcp-servers | REVIEW | 9 | https://github.com/modelcontextprotocol/php-sdk | php, mcp-servers | 2026-03-25 | The official PHP SDK for Model Context Protocol servers and clients. Maintained ... |
+| TIP-117 | Python Sdk | mcp-servers | REVIEW | 10 | https://github.com/modelcontextprotocol/python-sdk | python, mcp-servers | 2026-03-25 | The official Python SDK for Model Context Protocol servers and clients.... |
+| TIP-118 | Registry | mcp-servers | REVIEW | 10 | https://github.com/modelcontextprotocol/registry | mcp, mcp-servers, go | 2026-03-25 | A community driven registry service for Model Context Protocol  servers.... |
+| TIP-119 | Servers | mcp-servers | REVIEW | 10 | https://github.com/modelcontextprotocol/servers | typescript, mcp-servers | 2026-03-25 | Model Context Protocol Servers.... |
+| TIP-120 | Swift Sdk | mcp-servers | REVIEW | 9 | https://github.com/modelcontextprotocol/swift-sdk | mcp, swift, mcp-servers | 2026-03-25 | The official Swift SDK for Model Context Protocol servers and clients.... |
+| TIP-121 | Typescript Sdk | mcp-servers | REVIEW | 10 | https://github.com/modelcontextprotocol/typescript-sdk | typescript, mcp-servers | 2026-03-25 | The official TypeScript SDK for Model Context Protocol servers and clients.... |
+| TIP-122 | Claude Starter Kit | software | REVIEW | 5 | https://github.com/mp-web3/claude-starter-kit | python, software | 2026-03-25 | Turn Claude Code into a personal AI assistant that remembers you across sessions... |
+| TIP-123 | Anthropic Cybersecurity Skills | mcp-servers | REVIEW | 10 | https://github.com/mukul975/Anthropic-Cybersecurity-Skills | ai-agents, claude, claude-code, python, mcp-servers | 2026-03-25 | 734+ structured cybersecurity skills for AI agents · MITRE ATT&CK mapped · agent... |
+| TIP-124 | 5Ire | mcp-servers | REVIEW | 10 | https://github.com/nanbingxyz/5ire | knowledge-base, llms, mcp, typescript, mcp-servers | 2026-03-25 | 5ire is a cross-platform desktop AI assistant, MCP client. It compatible with ma... |
+| TIP-125 | Bridle | mcp-servers | REVIEW | 7 | https://github.com/neiii/bridle | ai, ampcode, claude-code, rust, mcp-servers | 2026-03-25 | TUI / CLI config manager for agentic harnesses.... |
+| TIP-126 | Claude Code Settings | configs | SAFE | 5 | https://github.com/nokonoko1203/claude-code-settings | ai, ai-agents, claude, configs | 2026-03-25 | Best Practices for Claude Code Configuration.... |
+| TIP-127 | N Skills | workflows | REVIEW | 9 | https://github.com/numman-ali/n-skills | typescript, workflows | 2026-03-25 | Curated plugin marketplace for AI agents - works with Claude Code, Codex, and op... |
+| TIP-128 | Ccexp | configs | SAFE | 7 | https://github.com/nyatinte/ccexp | claude, claude-code, typescript, configs | 2026-03-25 | Interactive terminal interface for discovering, previewing, and managing Claude ... |
+| TIP-129 | Claude Octopus | workflows | REVIEW | 10 | https://github.com/nyldn/claude-octopus | ai-agents, ai-orchestration, claude-code, shell, workflows | 2026-03-25 | Multi-LLM orchestration plugin for Claude Code — 8 providers , 47 commands, 50 s... |
+| TIP-130 | Superpowers Marketplace | workflows | REVIEW | 9 | https://github.com/obra/superpowers-marketplace | workflows | 2026-03-25 | Curated Claude Code plugin marketplace.... |
+| TIP-131 | Humanizer Zh | workflows | REVIEW | 10 | https://github.com/op7418/Humanizer-zh | workflows | 2026-03-25 | Humanizer 的汉化版本，Claude Code Skills，旨在消除文本中 AI 生成的痕迹。.... |
+| TIP-132 | Pdf Tools | software | REVIEW | 7 | https://github.com/Open-Document-Alliance/PDF-Tools | claude, pdf-filler, html, software | 2026-03-25 | PDF Filler for Claude Desktop.... |
+| TIP-133 | Core | mcp-servers | REVIEW | 10 | https://github.com/opensumi/core | ai, ai-first, ai-native, typescript, mcp-servers | 2026-03-25 | A framework helps you quickly build AI Native IDE products. MCP Client, supports... |
+| TIP-134 | Serena | mcp-servers | REVIEW | 10 | https://github.com/oraios/serena | agent, ai, ai-coding, python, mcp-servers | 2026-03-25 | A powerful coding agent toolkit providing semantic retrieval and editing capabil... |
+| TIP-135 | Ai Research Skills | workflows | REVIEW | 10 | https://github.com/Orchestra-Research/AI-Research-SKILLs | ai, ai-research, claude, tex, workflows | 2026-03-25 | Comprehensive open-source library of AI research and engineering skills for any ... |
+| TIP-136 | Planning With Files | workflows | REVIEW | 10 | https://github.com/OthmanAdi/planning-with-files | adal, agent, agent-skills, python, workflows | 2026-03-25 | Claude Code skill implementing Manus-style persistent markdown planning — the wo... |
+| TIP-137 | Continuous Claude V3 | mcp-servers | REVIEW | 10 | https://github.com/parcadei/Continuous-Claude-v3 | agents, claude-code, claude-code-cli, python, mcp-servers | 2026-03-25 | Context management for Claude Code. Hooks maintain state via ledgers and handoff... |
+| TIP-138 | Claude Code System Prompts | prompts | SAFE | 10 | https://github.com/Piebald-AI/claude-code-system-prompts | claude-code, claude-code-system-prompts, system-prompts, javascript, prompts | 2026-03-25 | All parts of Claude Code's system prompt, 18 builtin tool descriptions, sub agen... |
+| TIP-139 | Tweakcc | prompts | SAFE | 10 | https://github.com/Piebald-AI/tweakcc | agentic, anthropic, bun, typescript, prompts | 2026-03-25 | Customize Claude Code's system prompts, create custom toolsets, input pattern hi... |
+| TIP-140 | Spec Workflow Mcp | workflows | REVIEW | 10 | https://github.com/Pimzino/spec-workflow-mcp | typescript, workflows | 2026-03-25 | A Model Context Protocol  server that provides structured spec-driven developmen... |
+| TIP-141 | Notebooklm Mcp | mcp-servers | REVIEW | 9 | https://github.com/PleasePrompto/notebooklm-mcp | typescript, mcp-servers | 2026-03-25 | MCP server for NotebookLM - Let your AI agents  research documentation directly ... |
+| TIP-142 | Notebooklm Skill | prompts | SAFE | 10 | https://github.com/PleasePrompto/notebooklm-skill | python, prompts | 2026-03-25 | Use this skill to enable Claude Code to communicate directly with your Google No... |
+| TIP-143 | Polymcp | mcp-servers | REVIEW | 7 | https://github.com/poly-mcp/PolyMCP | agent-framework, ai-agent, anthropic, typescript, mcp-servers | 2026-03-25 | Polymcp provides a simple and efficient way to interact with MCP servers using c... |
+| TIP-144 | Mcp Framework | mcp-servers | REVIEW | 8 | https://github.com/QuantGeekDev/mcp-framework | anthropic, claude, genai, typescript, mcp-servers | 2026-03-25 | A framework for writing MCP  servers in Typescript.... |
+| TIP-145 | Awesome Claude Agents | workflows | REVIEW | 6 | https://github.com/rahulvrane/awesome-claude-agents | workflows | 2026-03-25 | Collection of awesome claude code subagents.... |
+| TIP-146 | Refly | prompts | SAFE | 10 | https://github.com/refly-ai/refly | agent, agent-skills, automation, typescript, prompts | 2026-03-25 | The first open-source agent skills builder. Define skills by vibe workflow, run ... |
+| TIP-148 | Awesome Claude Code Toolkit | mcp-servers | REVIEW | 9 | https://github.com/rohitg00/awesome-claude-code-toolkit | claude, claude-code, claudecode, javascript, mcp-servers | 2026-03-25 | The most comprehensive toolkit for Claude Code -- 135 agents, 35 curated skills ... |
+| TIP-149 | Forge Gpu | workflows | REVIEW | 5 | https://github.com/RosyGameStudio/forge-gpu | c, gamedev, graphics-programming, workflows | 2026-03-25 | Learn real-time graphics programming and build games with SDL's GPU API. Tutoria... |
+| TIP-151 | Wikipedia Mcp | mcp-servers | REVIEW | 7 | https://github.com/Rudra-ravi/wikipedia-mcp | anthropic, llm, mcp-server, python, mcp-servers | 2026-03-25 | A Model Context Protocol  server that retrieves information from Wikipedia to pr... |
+| TIP-152 | Ruflo | mcp-servers | REVIEW | 10 | https://github.com/ruvnet/ruflo | agentic-ai, agentic-engineering, agentic-framework, typescript, mcp-servers | 2026-03-25 | 🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-... |
+| TIP-153 | Vestige | mcp-servers | REVIEW | 7 | https://github.com/samvallad33/vestige | ai-memory, claude, cognitive-science, rust, mcp-servers | 2026-03-25 | Cognitive memory for AI agents — FSRS-6 spaced repetition, 29 brain modules, 3D ... |
+| TIP-154 | Claude Forge | configs | SAFE | 9 | https://github.com/sangrokjung/claude-forge | agents, ai-assistant, ai-coding, shell, configs | 2026-03-25 | Supercharge Claude Code with 11 AI agents, 36 commands & 15 skills — the claude-... |
+| TIP-155 | Agentic Project Management | workflows | REVIEW | 10 | https://github.com/sdi2200262/agentic-project-management | javascript, workflows | 2026-03-25 | A framework for managing complex projects with structured multi-agent workflows.... |
+| TIP-156 | Citadel | scripts | REVIEW | 7 | https://github.com/SethGammon/Citadel | javascript, scripts | 2026-03-25 | Agent orchestration harness for Claude Code. Four-tier routing , campaign persis... |
+| TIP-157 | Claude Code Auto Memory | prompts | SAFE | 6 | https://github.com/severity1/claude-code-auto-memory | python, prompts | 2026-03-25 | Claude Code plugin that automatically maintains CLAUDE.md files.... |
+| TIP-158 | Claude Code Prompt Improver | prompts | SAFE | 9 | https://github.com/severity1/claude-code-prompt-improver | python, prompts | 2026-03-25 | Intelligent prompt improver hook for Claude Code. Type vibes, ship precision.... |
+| TIP-159 | Learn Claude Code | scripts | REVIEW | 10 | https://github.com/shareAI-lab/learn-claude-code | agent, agent-development, ai-agent, typescript, scripts | 2026-03-25 | Bash is all you need -  A nano claude code–like 「agent harness」, built from 0 to... |
+| TIP-160 | Agent Orchestrator Template | workflows | REVIEW | 6 | https://github.com/shintaro-sprech/agent-orchestrator-template | workflows | 2026-03-25 | A self-evolving subagent system for Claude Code.... |
+| TIP-161 | Antigravity Awesome Skills | mcp-servers | REVIEW | 10 | https://github.com/sickn33/antigravity-awesome-skills | agent-skills, agentic-skills, ai-agent-skills, python, mcp-servers | 2026-03-25 | Installable GitHub library of 1,304+ agentic skills for Claude Code, Cursor, Cod... |
+| TIP-162 | Overture | mcp-servers | REVIEW | 9 | https://github.com/SixHq/Overture | ai-agent, ai-coding, automation, typescript, mcp-servers | 2026-03-25 | Overture is an open-source, locally running web interface delivered as an MCP  s... |
+| TIP-163 | Agent Toolkit | scripts | REVIEW | 10 | https://github.com/softaworks/agent-toolkit | agent-skills, ai, automation, python, scripts | 2026-03-25 | A curated collection of skills for AI coding agents. Skills are packaged instruc... |
+| TIP-165 | Toolhive | mcp-servers | REVIEW | 10 | https://github.com/stacklok/toolhive | ai, ai-security, aicodeassistant, go, mcp-servers | 2026-03-25 | ToolHive is an enterprise-grade platform for running and managing Model Context ... |
+| TIP-166 | Claude Code Mcp | mcp-servers | REVIEW | 9 | https://github.com/steipete/claude-code-mcp | agent, claude, mcp, javascript, mcp-servers | 2026-03-25 | Claude Code as one-shot MCP server to have an agent in your agent.... |
+| TIP-167 | Myclaude | workflows | REVIEW | 10 | https://github.com/stellarlinkco/myclaude | go, workflows | 2026-03-25 | Multi-agent orchestration workflow.... |
+| TIP-168 | Linkedin Mcp Server | mcp-servers | REVIEW | 10 | https://github.com/stickerdaniel/linkedin-mcp-server | anthropic, chatgpt, chatgpt-desktop, python, mcp-servers | 2026-03-25 | This MCP server allows Claude and other AI assistants to access your LinkedIn. S... |
+| TIP-169 | Mcp Server | mcp-servers | REVIEW | 7 | https://github.com/strands-agents/mcp-server | agentic, agentic-ai, agents, python, mcp-servers | 2026-03-25 | This MCP server provides documentation about Strands Agents to your GenAI tools,... |
+| TIP-170 | Crystal | workflows | REVIEW | 10 | https://github.com/stravu/crystal | agentic-ai, ai, ai-coding, typescript, workflows | 2026-03-25 | Run multiple Codex and Claude Code AI sessions in parallel git worktrees. Test, ... |
+| TIP-171 | Antigravity Workspace Template | configs | SAFE | 10 | https://github.com/study8677/antigravity-workspace-template | agentic-ai, ai-coding, claude-code, python, configs | 2026-03-25 | 🪐 The ultimate starter kit for AI IDEs, Claude code，codex, and other agentic cod... |
+| TIP-172 | Superclaude Framework | configs | SAFE | 10 | https://github.com/SuperClaude-Org/SuperClaude_Framework | python, configs | 2026-03-25 | A configuration framework that enhances Claude Code with specialized commands, c... |
+| TIP-173 | Plugins For Claude Natives | workflows | REVIEW | 9 | https://github.com/team-attention/plugins-for-claude-natives | python, workflows | 2026-03-25 | Claude Code plugins for power users.... |
+| TIP-174 | Code Abyss | prompts | SAFE | 7 | https://github.com/telagod/code-abyss | ai-assistant, blue-team, claude-code, javascript, prompts | 2026-03-25 | ☠ 一键为 Claude Code / Codex CLI 注入邪修人格与 40+ 安全工程秘典 | npx code-abyss.... |
+| TIP-175 | Notebooklm Py | workflows | REVIEW | 10 | https://github.com/teng-lin/notebooklm-py | agentic-skill, api, claude, python, workflows | 2026-03-25 | Unofficial Python API and agentic skill for Google NotebookLM. Full programmatic... |
+| TIP-176 | Awesome Mcp Servers | mcp-servers | REVIEW | 9 | https://github.com/TensorBlock/awesome-mcp-servers | anthropic, awesome, genai, mcp-servers | 2026-03-25 | A comprehensive collection of Model Context Protocol  servers.... |
+| TIP-177 | Claude Code Mastery Project Starter Kit | software | REVIEW | 7 | https://github.com/TheDecipherist/claude-code-mastery-project-starter-kit | shell, software | 2026-03-25 | The definitive starting point for Claude Code projects. Based on Claude Code Mas... |
+| TIP-178 | Claude Code Mastery | mcp-servers | REVIEW | 6 | https://github.com/TheDecipherist/claude-code-mastery | ai-agents, anthropic, claude, shell, mcp-servers | 2026-03-25 | The complete guide to Claude Code: CLAUDE.md, hooks, skills, MCP servers, and co... |
+| TIP-179 | Claude Mem | workflows | REVIEW | 10 | https://github.com/thedotmack/claude-mem | ai, ai-agents, ai-memory, typescript, workflows | 2026-03-25 | A Claude Code plugin that automatically captures everything Claude does during y... |
+| TIP-180 | Pg Aiguide | mcp-servers | REVIEW | 10 | https://github.com/timescale/pg-aiguide | ai, ai-agents, ai-coding, python, mcp-servers | 2026-03-25 | MCP server and Claude plugin for Postgres skills and documentation. Helps AI cod... |
+| TIP-181 | Pi Subagents | workflows | REVIEW | 5 | https://github.com/tintinweb/pi-subagents | typescript, workflows | 2026-03-25 | Sub-agents for pi with Claude Code look and feel — parallel execution, live widg... |
+| TIP-183 | Claude Brain | configs | SAFE | 5 | https://github.com/toroleapinc/claude-brain | ai, ai-tools, anthropic, shell, configs | 2026-03-25 | Sync your Claude Code brain across machines — memory, skills, agents, rules, and... |
+| TIP-184 | Skills | workflows | REVIEW | 10 | https://github.com/trailofbits/skills | agent-skills, python, workflows | 2026-03-25 | Trail of Bits Claude Code skills for security research, vulnerability detection,... |
+| TIP-185 | Agentrules Architect | prompts | SAFE | 7 | https://github.com/trevor-nichols/agentrules-architect | agents, antigravity, claude-code, python, prompts | 2026-03-25 | AGENTS.md/CLAUDE.md generator and ExecPlan harness for Codex, Claude Code, Curso... |
+| TIP-187 | Swiftui Agent Skill | workflows | REVIEW | 10 | https://github.com/twostraws/SwiftUI-Agent-Skill | workflows | 2026-03-25 | SwiftUI agent skill for Claude Code, Codex, and other AI tools.... |
+| TIP-188 | Deep Research | mcp-servers | REVIEW | 10 | https://github.com/u14app/deep-research | anthropic, deep-research, deep-research-api, javascript, mcp-servers | 2026-03-25 | Use any LLMs  for Deep Research. Support SSE API and MCP server.... |
+| TIP-189 | Zcf | prompts | SAFE | 10 | https://github.com/UfoMiao/zcf | agent, ai, ai-agent, typescript, prompts | 2026-03-25 | Zero-Config Code Flow for Claude code & Codex.... |
+| TIP-190 | Claude Code Agents | prompts | SAFE | 5 | https://github.com/undeadlist/claude-code-agents | shell, prompts | 2026-03-25 | Claude Code Agents Prompt templates for Claude Code's subagent system. Run paral... |
+| TIP-191 | Mcp Nixos | mcp-servers | REVIEW | 9 | https://github.com/utensils/mcp-nixos | ai-assistant, ai-integration, ai-tools, python, mcp-servers | 2026-03-25 | MCP-NixOS - Model Context Protocol Server for NixOS resources.... |
+| TIP-192 | Claude Desktop Extension Bear Notes | mcp-servers | REVIEW | 7 | https://github.com/vasylenko/claude-desktop-extension-bear-notes | bear, bear-notes, claude, typescript, mcp-servers | 2026-03-25 | Claude Desktop extension with bundled MCP Server for Bear note taking app.... |
+| TIP-193 | Vibecosystem | scripts | REVIEW | 7 | https://github.com/vibeeval/vibecosystem | ai-agents, ai-software-team, automation, typescript, scripts | 2026-03-25 | 121 agents, 223 skills, 49 hooks — AI software team built on Claude Code. No cus... |
+| TIP-194 | Awesome Claude Agents | workflows | REVIEW | 10 | https://github.com/vijaythecoder/awesome-claude-agents | workflows | 2026-03-25 | An orchestrated sub agent dev team powered by claude code.... |
+| TIP-195 | Vurb.Ts | mcp-servers | REVIEW | 7 | https://github.com/vinkius-labs/vurb.ts | ai-tools, anthropic, claude-code, typescript, mcp-servers | 2026-03-25 | Vurb.ts - The TypeScript Framework for MCP Servers. Type-safe tools, structured ... |
+| TIP-196 | Autoimprove Cc | prompts | SAFE | 5 | https://github.com/VoidLight00/autoimprove-cc | prompts | 2026-03-25 | Claude Code version of skill-autoimprove — auto-improve any CLAUDE.md using Karp... |
+| TIP-197 | Awesome Agent Skills | workflows | REVIEW | 10 | https://github.com/VoltAgent/awesome-agent-skills | agent-skills, ai-agents, antigravity-skills, workflows | 2026-03-25 | Claude Code Skills and 1000+ agent skills from official dev teams and the commun... |
+| TIP-198 | Awesome Claude Code Subagents | workflows | REVIEW | 10 | https://github.com/VoltAgent/awesome-claude-code-subagents | ai-agent-framework, ai-agent-tools, ai-agents, shell, workflows | 2026-03-25 | A collection of 100+ specialized Claude Code subagents covering a wide range of ... |
+| TIP-199 | Claude Historian Mcp | mcp-servers | REVIEW | 7 | https://github.com/Vvkmnn/claude-historian-mcp | ai, ai-tools, anthropic, typescript, mcp-servers | 2026-03-25 | 📜 An MCP server for conversation history search and retrieval in Claude Code.... |
+| TIP-200 | Auto Claude Code Research In Sleep | mcp-servers | REVIEW | 10 | https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep | ai-research, ai-tools, aris, python, mcp-servers | 2026-03-25 | ARIS ⚔  — Lightweight Markdown-only skills for autonomous ML research: cross-mod... |
+| TIP-201 | Open Saas | configs | SAFE | 10 | https://github.com/wasp-lang/open-saas | ai, authentication, aws-s3, typescript, configs | 2026-03-25 | A 100% free modern JS SaaS boilerplate . Full-featured: Auth , Email sending, Ba... |
+| TIP-202 | Claude Code Everything You Need To Know | mcp-servers | REVIEW | 10 | https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know | python, mcp-servers | 2026-03-25 | The ultimate all-in-one guide to mastering Claude Code. From setup, prompt engin... |
+| TIP-203 | Awesome Mcp Servers | mcp-servers | REVIEW | 10 | https://github.com/wong2/awesome-mcp-servers | mcp-servers | 2026-03-25 | A curated list of Model Context Protocol  servers.... |
+| TIP-204 | Maverick Mcp | mcp-servers | REVIEW | 7 | https://github.com/wshobson/maverick-mcp | anthropic, artificial-intelligence, claude, python, mcp-servers | 2026-03-25 | MaverickMCP - Personal Stock Analysis MCP Server.... |
+| TIP-205 | Everything Claude Code Zh | mcp-servers | REVIEW | 7 | https://github.com/xu-xiang/everything-claude-code-zh | ai-agents, anthropic, claude, javascript, mcp-servers | 2026-03-25 | Everything-claude-code 中文翻译项目：完整的 Claude Code 配置集合（agents, skills, hooks, comman... |
+| TIP-206 | Mcp Excalidraw | mcp-servers | REVIEW | 10 | https://github.com/yctimlin/mcp_excalidraw | javascript, mcp-servers | 2026-03-25 | MCP server and Claude Code skill for Excalidraw — programmatic canvas toolkit to... |
+| TIP-207 | Prompt | prompts | SAFE | 7 | https://github.com/yegor256/prompt | ai, llm, prompt-engineering, prompts | 2026-03-25 | A plain-text prompt for LLMs that teaches the essence of elegant coding and test... |
+| TIP-208 | Claudian | workflows | REVIEW | 10 | https://github.com/YishenTu/claudian | claude-code, ide, obsidian, typescript, workflows | 2026-03-25 | An Obsidian plugin that embeds Claude Code as an AI collaborator in your vault.... |
+| TIP-209 | Claude Code Tips | prompts | SAFE | 10 | https://github.com/ykdojo/claude-code-tips | agentic, agentic-ai, agentic-coding, javascript, prompts | 2026-03-25 | 45 tips for getting the most out of Claude Code, from basics to advanced - inclu... |
+| TIP-210 | Cc Tutorial | ideas | SAFE | 5 | https://github.com/young1lin/cc-tutorial | ideas | 2026-03-25 | Claude Code Tutorial.... |
+| TIP-211 | Markdownify Mcp | mcp-servers | REVIEW | 10 | https://github.com/zcaceres/markdownify-mcp | ai, anthropic, anthropic-ai, typescript, mcp-servers | 2026-03-25 | A Model Context Protocol server for converting almost anything to Markdown.... |
+| TIP-212 | Claude Code Guide | mcp-servers | REVIEW | 10 | https://github.com/zebbern/claude-code-guide | ai, ai-agent, ai-agent-tools, mcp-servers | 2026-03-25 | Claude Code Guide - Setup, Commands, workflows, agents, skills & tips-n-tricks g... |
+| TIP-213 | Ai Max | mcp-servers | REVIEW | 6 | https://github.com/zhukunpenglinyutong/ai-max | javascript, mcp-servers | 2026-03-25 | 一键给Claude Code 提高智商，包含生产级 agents、skills、hooks、commands、rules 和 MCP 配置.... |
+| TIP-214 | Idea Claude Code Gui | workflows | REVIEW | 10 | https://github.com/zhukunpenglinyutong/idea-claude-code-gui | typescript, workflows | 2026-03-25 | IDEA Claude Code GUI Plugin.... |
+| TIP-215 | Geo Seo Claude | workflows | REVIEW | 10 | https://github.com/zubair-trabzada/geo-seo-claude | python, workflows | 2026-03-25 | GEO-first SEO skill for Claude Code. Comprehensive AI search optimization for an... |
 
 ---
 
@@ -14,20 +204,20 @@
 
 | Category    | Count | Avg Score |
 |-------------|-------|-----------|
-| prompts     | 0     | —         |
-| configs     | 0     | —         |
-| scripts     | 0     | —         |
-| mcp-servers | 0     | —         |
-| workflows   | 0     | —         |
-| software    | 0     | —         |
-| ideas       | 0     | —         |
+| prompts     | 23     | 8.1         |
+| configs     | 14     | 7.3         |
+| scripts     | 15     | 8.7         |
+| mcp-servers | 92     | 8.6         |
+| workflows   | 42     | 8.8         |
+| software    | 4     | 6.0         |
+| ideas       | 1     | 5.0         |
 
 ## Stats by Risk
 
 | Level   | Count |
 |---------|-------|
-| SAFE    | 0     |
-| REVIEW  | 0     |
+| SAFE    | 38     |
+| REVIEW  | 153     |
 | DANGER  | 0     |
 
 ---
@@ -36,6 +226,17 @@
 
 | ID | Title | Date Rejected | Reason |
 |----|-------|---------------|--------|
-| — | — | — | — |
+| TIP-001 | JDArmy/Evasion-SubAgents | 2026-03-25 | REJECT: malware tooling — shellcode loader and AV evasion framework |
+| TIP-020 | agentsea/flashbacker | 2026-03-25 | score 4/10 — below threshold |
+| TIP-052 | egebese/skill-manager | 2026-03-25 | score 4/10 — below threshold |
+| TIP-060 | fubak/ferret-scan | 2026-03-25 | score 4/10 — below threshold |
+| TIP-066 | GuDaStudio/CLAUDEmd | 2026-03-25 | score 4/10 — below threshold |
+| TIP-098 | marcusgoll/Spec-Flow | 2026-03-25 | score 4/10 — below threshold |
+| TIP-101 | mbmccormick/things-mcpb | 2026-03-25 | score 4/10 — below threshold |
+| TIP-147 | roddutra/agent-mcp-gateway | 2026-03-25 | score 4/10 — below threshold |
+| TIP-150 | rubenzantingh/claude-code-magento-agents | 2026-03-25 | score 4/10 — below threshold |
+| TIP-164 | solanabr/solana-claude-config | 2026-03-25 | score 4/10 — below threshold |
+| TIP-182 | tony/claude-code-riper-5 | 2026-03-25 | score 4/10 — below threshold |
+| TIP-186 | treylom/prompt-engineering-skills | 2026-03-25 | score 4/10 — below threshold |
 
 ---
