@@ -1,8 +1,8 @@
 # Arsenal Catalog
 
-> Last updated: 2026-03-25
-> Total entries: 191 | SAFE: 38 | REVIEW: 153 | DANGER: 0
-> Sources: Manual: 0 | Scout: 202 | Social: 0
+> Last updated: 2026-08-29
+> Total entries: 202 | SAFE: 41 | REVIEW: 161 | DANGER: 0
+> Sources: Manual: 4 | Scout: 207 | Social: 0
 
 | ID | Title | Category | Risk | Score | Source | Tags | Date | AI Summary |
 |----|-------|----------|------|-------|--------|------|------|------------|
@@ -197,6 +197,17 @@
 | TIP-213 | Ai Max | mcp-servers | REVIEW | 6 | https://github.com/zhukunpenglinyutong/ai-max | javascript, mcp-servers | 2026-03-25 | 一键给Claude Code 提高智商，包含生产级 agents、skills、hooks、commands、rules 和 MCP 配置.... |
 | TIP-214 | Idea Claude Code Gui | workflows | REVIEW | 10 | https://github.com/zhukunpenglinyutong/idea-claude-code-gui | typescript, workflows | 2026-03-25 | IDEA Claude Code GUI Plugin.... |
 | TIP-215 | Geo Seo Claude | workflows | REVIEW | 10 | https://github.com/zubair-trabzada/geo-seo-claude | python, workflows | 2026-03-25 | GEO-first SEO skill for Claude Code. Comprehensive AI search optimization for an... |
+| TIP-216 | Caveman | workflows | REVIEW | 9 | https://github.com/JuliusBrussee/caveman | workflows, token-reduction, cost-optimization | 2026-05-17 | Claude Code skill that compresses agent output ~75% (caveman-speak) keeping technical accuracy.... |
+| TIP-217 | Compound Engineering Plugin | workflows | REVIEW | 10 | https://github.com/EveryInc/compound-engineering-plugin | workflows, claude-code-plugin, planning, code-review | 2026-05-17 | Every Inc plugin: brainstorm-plan-work-review-compound loop that codifies learnings.... |
+| TIP-218 | Planning With Files | workflows | REVIEW | 9 | https://github.com/OthmanAdi/planning-with-files | workflows, planning, persistent-context | 2026-05-17 | Claude Code skill implementing Manus-style persistent markdown planning for long-horizon tasks.... |
+| TIP-219 | Code Review Graph | mcp-servers | REVIEW | 9 | https://github.com/tirth8205/code-review-graph | mcp-servers, code-graph, blast-radius, tree-sitter | 2026-05-17 | Incremental Tree-sitter AST graph in SQLite, via MCP — blast-radius analysis so the agent reads only affected files.... |
+| TIP-220 | Graphify | workflows | REVIEW | 9 | https://github.com/safishamsi/graphify | workflows, code-graph, knowledge-graph, onboarding | 2026-05-17 | /graphify maps a whole project (code, docs, PDFs, media) into a queryable knowledge graph.... |
+| TIP-221 | Agentmemory | workflows | REVIEW | 7 | https://github.com/rohitg00/agentmemory | memory, claude-code-plugin, hooks, workflows | 2026-05-17 | Claude Code plugin that auto-captures agent activity via hooks and re-injects memories at session start.... |
+| TIP-222 | UI-TARS-desktop | software | REVIEW | 6 | https://github.com/bytedance/UI-TARS-desktop | gui-agent, computer-use, multimodal, software | 2026-05-17 | Standalone multimodal GUI agent stack (ByteDance). Vision-driven computer/browser/terminal automation. Not a Claude Code plugin.... |
+| TIP-223 | Taste Skill | prompts | SAFE | 8 | https://github.com/Leonxlnx/taste-skill | design, frontend, anti-slop, skill | 2026-08-29 | Framework markdown anti-slop per landing/portfolio/redesign — INSTALLATO (taste-skill + image-to-code).... |
+| TIP-224 | Awesome Design Skills | prompts | SAFE | 8 | https://github.com/bergside/awesome-design-skills | design, styles, ui, library | 2026-08-29 | 67 skill di stile auto-contenute — CLONATE in ~/.claude/design-library, attivazione per-slug a richiesta.... |
+| TIP-225 | Web Design Guidelines | prompts | REVIEW | 8 | https://github.com/vercel-labs/agent-skills | design, review, accessibility, vercel | 2026-08-29 | Skill ufficiale Vercel di review UI (100+ regole); GIÀ INSTALLATA; REVIEW: fetcha le regole da main a runtime.... |
+| TIP-226 | Playwright Cli | scripts | SAFE | 8 | https://github.com/microsoft/playwright-cli | playwright, browser, context-optimization | 2026-08-29 | CLI ufficiale Microsoft browser-via-shell; SKIP (duplica MCP+browse+ui-stress); opzione futura replace-MCP.... |
 
 ---
 
@@ -204,11 +215,11 @@
 
 | Category    | Count | Avg Score |
 |-------------|-------|-----------|
-| prompts     | 23     | 8.1         |
+| prompts     | 26     | 8.1         |
 | configs     | 14     | 7.3         |
-| scripts     | 15     | 8.7         |
-| mcp-servers | 92     | 8.6         |
-| workflows   | 42     | 8.8         |
+| scripts     | 16     | 8.7         |
+| mcp-servers | 93     | 8.6         |
+| workflows   | 46     | 8.8         |
 | software    | 4     | 6.0         |
 | ideas       | 1     | 5.0         |
 
@@ -216,8 +227,8 @@
 
 | Level   | Count |
 |---------|-------|
-| SAFE    | 38     |
-| REVIEW  | 153     |
+| SAFE    | 41     |
+| REVIEW  | 159     |
 | DANGER  | 0     |
 
 ---
